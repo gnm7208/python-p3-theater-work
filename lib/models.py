@@ -25,9 +25,8 @@ class Audition(Base):
     def __repr__(self):
         return f'<Audition {self.actor} for role {self.role_id}>'
     
-    def role(self):
-        """Returns an instance of role associated with this audition."""
-        return self.role
+
+
     
     def call_back(self):
         """Changes the hired attribute to True."""
